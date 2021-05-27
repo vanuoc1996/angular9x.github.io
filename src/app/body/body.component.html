@@ -1,0 +1,74 @@
+<p>body works!</p>
+<div class="content" role="main">
+  <div class="container-fluid">
+
+    
+  </div>
+  <div class="row">
+    <div class="col-md-4"> 
+      <ul class="products">
+      <li class="row">
+        <div class="col left">
+          <div class="thumbnail">
+              <img src="{{ products[0].thumbnail }}"  class="img-circle" alt="" />
+          </div>
+          <div class="detail">
+            <div class="name"><a href="#"><h3>{{ products[0].name }}</h3></a></div>
+            <div class="description">
+              Description for product item number 1
+            </div>
+            <div class="price">{{products[0].price}} VND</div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+  
+    <div class="col-md-4">
+      <ul class="products">
+        <li class="row">
+          <div class="col left">
+            <div class="thumbnail">
+                <img src="{{ products[1].thumbnail }}"  class="img-circle" alt="" />
+            </div>
+            <div class="detail">
+              <div class="name"><a href="#"><h3>{{ products[1].name }}</h3></a></div>
+              <div class="description">
+                Description for product item number 1
+              </div>
+              <div class="price">{{products[1].price}} VND</div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <ul class="products">
+        <li class="row">
+          <div class="col left">
+            <div class="thumbnail">
+                <img src="{{ products[1].thumbnail }}"  class="img-circle" alt="" />
+            </div>
+            <div class="detail">
+              <div class="name"><a href="#"><h3>{{ products[1].name }}</h3></a></div>
+              <div class="description">
+                Description for product item number 1
+              </div>
+              <div class="price">{{products[1].price}} VND</div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+    <!-- Resources -->
+    
+    <div>
+      <a type="button" class="btn btn-danger" style="margin-right: 10px; color: white;">Trang 1</a>
+      <a type="button" class="btn btn-danger" style="margin-right: 10px; color: white;">Trang 2</a>
+      <a type="button" class="btn btn-danger" style="margin-right: 10px; color: white;">Trang 3</a>
+      <a type="button" class="btn btn-danger" style="margin-right: 10px; color: white;">Trang 4</a>
+      <a type="button" class="btn btn-danger" style="margin-right: 10px; color: white;">Trang 5</a>
+    </div> 
+  
+  </div>
