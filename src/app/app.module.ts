@@ -1,9 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { BodyComponent } from './body/body.component';
-import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './layouts/header/header.component';
+import { BodyComponent } from './layouts/body/body.component';
+import { FooterComponent } from './layouts/footer/footer.component';
+import { ProductComponent } from './product/product.component';
+import { BarComponent } from './core/bar/bar.component';
 
 @NgModule({
   declarations: [
@@ -11,6 +13,8 @@ import { FooterComponent } from './footer/footer.component';
     HeaderComponent,
     BodyComponent,
     FooterComponent,
+    ProductComponent,
+    BarComponent,
    
   ],
   imports: [
